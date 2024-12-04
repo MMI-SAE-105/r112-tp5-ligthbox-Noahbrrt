@@ -13,4 +13,16 @@ Lightbox*/
       transform: scale(1); 
     }
   }
+  #lightbox[open] {
+    padding: 50px; 
+    animation: openLightbox 0.5s; 
+    border-radius: 20px; 
+    border: 5px solid darkblue; 
+  }
+  
+  #lightbox img {
+    width: 100%; 
+    max-width: 80vw;
+    height: auto; 
+  }
   
