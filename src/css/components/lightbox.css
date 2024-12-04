@@ -14,15 +14,15 @@ Lightbox*/
     }
   }
   #lightbox[open] {
-    padding: 50px; 
-    animation: openLightbox 0.5s; 
+    padding: 20px; 
+    animation: openLightbox 1.0s; 
     border-radius: 20px; 
     border: 5px solid darkblue; 
   }
   
   #lightbox img {
     width: 100%; 
-    max-width: 80vw;
+    max-width: 100vw;
     height: auto; 
   }
   
